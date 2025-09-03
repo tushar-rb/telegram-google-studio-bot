@@ -14,7 +14,7 @@ class BotSettings:
     
     # Google AI Studio Configuration
     GOOGLE_AI_STUDIO_API_KEY = os.getenv('GOOGLE_AI_STUDIO_API_KEY')
-    GOOGLE_AI_MODEL = os.getenv('GOOGLE_AI_MODEL', 'gemini-pro')
+    GOOGLE_AI_MODEL = os.getenv('GOOGLE_AI_MODEL', 'gemini-1.5-flash')
     MAX_TOKENS = int(os.getenv('MAX_TOKENS', '1000'))
     TEMPERATURE = float(os.getenv('TEMPERATURE', '0.7'))
     

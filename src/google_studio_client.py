@@ -16,7 +16,7 @@ class GoogleStudioClient:
     
     def __init__(self):
         self.api_key = os.getenv('GOOGLE_AI_STUDIO_API_KEY')
-        self.model_name = os.getenv('GOOGLE_AI_MODEL', 'gemini-pro')
+        self.model_name = os.getenv('GOOGLE_AI_MODEL', 'gemini-1.5-flash')
         self.max_tokens = int(os.getenv('MAX_TOKENS', '1000'))
         self.temperature = float(os.getenv('TEMPERATURE', '0.7'))
         

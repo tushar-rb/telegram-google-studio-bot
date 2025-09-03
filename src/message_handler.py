@@ -5,7 +5,7 @@ Processes user messages and manages conversation state
 
 import os
 import logging
-from typing import Dict, List, Optional
+from typing import Dict, List, Optional, Any
 from datetime import datetime, timedelta
 from src.google_studio_client import GoogleStudioClient
 
